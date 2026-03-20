@@ -167,7 +167,7 @@ function setUnit(unit) {
     // Update form placeholder
     const input = document.getElementById('uricValue');
     input.placeholder = unit === UNIT_MGDL ? '例如: 5.5' : '例如: 327';
-    input.max = unit === UNIT_MGDL ? '20' : '1200';
+    input.max = unit === UNIT_MGDL ? '1000' : '1000';
     
     // Re-render components with new unit
     updateStatistics();

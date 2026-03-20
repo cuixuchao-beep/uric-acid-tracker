@@ -1,0 +1,17 @@
+# Uric Acid Tracker
+A Progressive Web App for tracking uric acid levels.
+
+## Quick Start
+1. Open `index.html` in your browser
+2. Or serve with a local web server:
+   ```bash
+   python -m http.server 8000
+   ```
+
+## Features
+- Record daily uric acid values
+- Support mg/dL and μmol/L units
+- Historical trend charts
+- Data export (CSV/JSON)
+- Local storage (no server needed)
+- PWA support (offline capable)
